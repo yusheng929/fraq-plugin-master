@@ -1,0 +1,47 @@
+{
+  "name": "fraq-plugin-master",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "基于fraq编写的通用主人列表",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "main": "dist/index.mjs",
+  "typings": "dist/index.d.mts",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsx test/smoke.ts"
+  },
+  "keywords": [
+    "fraq",
+    "fraq-plugin"
+  ],
+  "author": "瑜笙",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusheng929/fraq-plugin-master"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@11.15.1",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.4",
+    "@fraqjs/mock": "^0.1.0",
+    "@types/node": "^24.13.3",
+    "tsdown": "^0.22.12",
+    "tsx": "^4.23.1",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@fraqjs/fraq": "^0.14.1"
+  },
+  "fraq": {
+    "category": "utilities"
+  },
+  "dependencies": {
+    "chokidar": "^5.0.0"
+  }
+}
