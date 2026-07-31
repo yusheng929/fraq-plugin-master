@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/yusheng929/fraq-plugin-master/compare/v1.0.1...v1.0.2) (2026-07-31)
+
+
+### Bug Fixes
+
+* 删除多余依赖 ([d2e7837](https://github.com/yusheng929/fraq-plugin-master/commit/d2e7837aca05f9f0ad2d386ffaddb64fa2d85c22))
+
 ## [1.0.1](https://github.com/yusheng929/fraq-plugin-master/compare/v1.0.0...v1.0.1) (2026-07-31)
 
 
