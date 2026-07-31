@@ -1,7 +1,7 @@
 {
   "name": "fraq-plugin-master",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于fraq编写的通用主人列表",
   "files": [
     "dist",

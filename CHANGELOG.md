@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/yusheng929/fraq-plugin-master/compare/v1.0.0...v1.0.1) (2026-07-31)
+
+
+### Bug Fixes
+
+* cli ([f117b64](https://github.com/yusheng929/fraq-plugin-master/commit/f117b646fd6f90d67b778132252ce1ab8f4f516a))
+
 ## 1.0.0 (2026-07-31)
 
 
