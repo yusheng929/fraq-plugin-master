@@ -21,6 +21,7 @@ jobs:
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: node
   build-publish-npm:
     needs: [release-please]
     if: needs.release-please.outputs.release_created == 'true'
