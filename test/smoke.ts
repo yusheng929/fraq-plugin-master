@@ -1,14 +1,14 @@
 import { Context } from '@fraqjs/fraq'
-import { createSimpleLogHandler } from '@fraqjs/mock'
 
 import ExamplePlugin from '../src'
 
 const ctx = Context.fromUrl('http://127.0.0.1:7003', {
   accessToken: undefined,
-  logHandler: createSimpleLogHandler(),
+  logHandler (message) {
+    console.log(`[${message.level}] [${message.module}] ${message.message}`)
+  }
 })
 
-// If your plugin depends on other plugins, you should install them here as well.
 ctx.install(ExamplePlugin)
 
 ctx.start()
