@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/yusheng929/fraq-plugin-master/compare/v1.0.3...v1.1.0) (2026-08-06)
+
+
+### Features
+
+* 适配新版fraq对导出服务器的需求 ([1983572](https://github.com/yusheng929/fraq-plugin-master/commit/19835725e1f20be3bcfaf3faba0d14ce1323b127))
+
 ## [1.0.3](https://github.com/yusheng929/fraq-plugin-master/compare/v1.0.2...v1.0.3) (2026-08-06)
 
 
