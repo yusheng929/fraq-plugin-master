@@ -125,4 +125,4 @@ const MasterList = definePlugin({
 })
 
 export default MasterList
-export { MasterList }
+export { Master }
