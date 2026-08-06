@@ -161,13 +161,13 @@ const MasterList = definePlugin({
   apply (ctx) {
     const master = new Master()
     ctx.provide(Master, master)
-    ctx.router
+    const router = ctx.router.filter((session) => master.isMaster(session.raw.sender_id))
+    router
       .command('#主人列表')
       .execute((session) => {
         session.reply(`主人列表:\n${master.masters.map(v => `- ${v}`).join('\n')}`, { withQuote: true })
       })
-    ctx.router
-      .filter((session) => master.isMaster(session.raw.sender_id))
+    router
       .command('#新增主人')
       .arg('userId', mentionOrNum())
       .execute((session, { userId }) => {
@@ -178,8 +178,7 @@ const MasterList = definePlugin({
         master.add(userId)
         session.reply(`已添加 [${userId}] 为主人`, { withQuote: true })
       })
-    ctx.router
-      .filter((session) => master.isMaster(session.raw.sender_id))
+    router
       .command('#删除主人')
       .arg('userId', mentionOrNum())
       .execute((session, { userId }) => {

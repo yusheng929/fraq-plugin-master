@@ -35,7 +35,7 @@
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
-    "@fraqjs/fraq": "^0.14.1"
+    "@fraqjs/fraq": "^0.16.1"
   },
   "fraq": {
     "category": "utilities"
