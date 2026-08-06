@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/yusheng929/fraq-plugin-master/compare/v1.1.0...v1.1.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* 服务导出问题 ([301a172](https://github.com/yusheng929/fraq-plugin-master/commit/301a172b587caa0d492be257330256d3fccb9acd))
+
 ## [1.1.0](https://github.com/yusheng929/fraq-plugin-master/compare/v1.0.3...v1.1.0) (2026-08-06)
 
 
